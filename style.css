@@ -1,0 +1,65 @@
+
+
+
+body{
+         background-color: lightgoldenrodyellow;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: lightgreen;
+    color: black;
+margin: 10px;
+padding: 10px ;
+    cursor: pointer;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    border: 2px;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
+#about{
+         background-color: bisque;
+}
+p{
+       font-size: 20px;
+       text-align: justify;
+       padding: 20px;
+       margin: 20px;
+       border: 1px solid black;
+       border-radius: 10px;
+       box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+       transition: background-color 0.5s, color 0.5s;
+       background-color: white;
+       color: black;
+       cursor: pointer; 
+       overflow-wrap: break-word;
+       word-wrap: break-word; 
+}
+#us{
+         background-color:lightpink;
+         overflow-x: auto;
+         
+}
+span{
+        font-weight: bold;
+        color: blue;
+}
+div{
+       background-color: rgb(135, 235, 233);
+       padding: 20px 22px 25px 30px;
+}
